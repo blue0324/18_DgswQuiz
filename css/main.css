@@ -52,7 +52,27 @@ ul, li
 {
     position: relative;
     text-align: center;
-    top: 35%;
+    top: 25%;
+    transform: translateY(-50%);
+    
+    font-size: 20pt;
+}
+
+.question-box #nickname
+{
+    position: relative;
+    text-align: center;
+    top: 10%;
+    transform: translateY(-50%);
+    
+    font-size: 20pt;
+}
+
+.question-box #goQuiz
+{
+    position: relative;
+    text-align: center;
+    top: 45%;
     transform: translateY(-50%);
     
     font-size: 20pt;
@@ -76,29 +96,4 @@ ul, li
 {
     background-color: white;
     color: black;
-
-}
-
-.question-box #button-group
-{
-    position: relative;
-    
-    top: 70%;
-    transform: translateY(-50%);
-}
-
-.question-box #group1
-{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 40px;
-
-}
-
-.question-box #group2
-{
-    display: flex;
-    justify-content: space-around;
-
-    
 }
